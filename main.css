@@ -1,0 +1,111 @@
+body
+{
+	background-image: url("background.png");
+	font-family: sans-serif;
+}
+
+
+h1, h3
+{
+	text-align: center;
+	color: white;
+}
+
+h1
+{
+	font-size: 250%;
+	font-family: 'Great Vibes', cursive;
+}
+
+h2
+{
+	text-decoration: underline;
+	
+}
+
+#header
+{
+	background-color: #660507;
+	width: 40%;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header h1
+{
+	padding-top: 5px;
+}
+
+#header h3
+{
+	padding-bottom: 5px;
+}
+#column1
+{
+	width: 38%;
+	display: inline-block;
+	background-color: #660507;
+	min-height: 325px;
+	color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+
+}
+#column2
+{
+	float: right;
+	width: 38%;
+	clear:left;
+	text-align: right;
+	background-color: #660507;
+	min-height: 325px;
+	color: white;
+	padding-right: 2%;
+	padding-left: 2%;
+	border-radius: 5px;
+
+}
+
+#footer
+{
+	background-color: #660507;
+	color: white;
+	padding-right: 2%;
+	padding-left: 2%;
+	border-radius: 5px;
+	text-align: center;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 100px;
+
+}
+ul
+{
+	padding-left: 0;
+}
+
+li
+{
+	list-style-type: none;
+	border-radius: 5px;
+	padding-left: 1%;
+	padding-bottom: 2%;
+}
+
+#swappic
+{
+	float:right;
+	width: 7%;
+	margin-top: 10%;
+	margin-right: 5%;
+}
+
+#swappic:hover
+{
+	opacity: 0.85;
+	cursor: pointer;
+}
+
